@@ -3,7 +3,5 @@ class PagesController < ApplicationController
   end
 
   def index
-    flash[:notice] = "Logged in sucessfully"
-    flash[:alert] = "Invalid password"
   end
 end
